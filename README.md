@@ -14,7 +14,7 @@ This is a simple and stylish Expense Tracker web app built using **HTML, CSS, an
 
 ## 📸 Preview
 
-![App Screenshot](images/bg.jpg) <!-- Replace with your actual image name -->
+ <img src="" alt="Sample Image" width="300"> <!-- Replace with your actual image name -->
 
 ## 🧾 How to Use
 
