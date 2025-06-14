@@ -14,13 +14,8 @@ This is a simple and stylish Expense Tracker web app built using **HTML, CSS, an
 
 ## 📸 Preview
 
- <img src="" alt="Sample Image" width="300"> <!-- Replace with your actual image name -->
-
-## 🧾 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/expense-tracker.git
+ <img src="bg.jpg" alt="Sample Image" width="300"> <!-- Replace with your actual image name -->
+---
 📂 Folder Structure
 
 expense-tracker/<br>
