@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=Domine:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&family=Tagesschrift&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+  body {
+    background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', sans-serif;
+    backdrop-filter: blur(5px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: 100vh;  
+  }
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #00ffcc;
+    animation: glow 2s infinite alternate;
+  }
+
+   @keyframes glow {
+    from { box-shadow: 0 0 10px #131313; }
+    to { box-shadow: 0 0 25px #ff55007f; }
+  }
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #bcb7b0;
+}
+
+.balance{
+    text-align: center;
+    background-color: #00ffcc1e;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.balance h1{
+    margin:0;
+    font-style: 2.5rem;
+}
+
+.incomeExpense{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;    /* changes here 0  */
+}
+
+.income,
+.expense{
+    flex: 1;
+    text-align: center;
+}
+
+.money{
+    font-size: 1.5rem;
+    margin: 5px 0;
+}
+
+.Plus{
+    color: rgba(172, 255, 47, 0.766);
+    font-weight: bold;
+}
+
+.Mins{
+    color: rgba(255, 64, 47, 0.929);
+    font-weight: bold;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+    max-height: 120px;
+    overflow-y: auto;
+}
+
+.list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  margin: 10px 0;
+  border-left: 6px solid;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 255, 204, 0.1);
+  transition: all 0.3s ease;
+}
+
+.list li.income {
+  border-color: rgba(0, 255, 100, 0.9);
+  color: #adff2f;
+}
+
+.list li.expense {
+  border-color: rgba(255, 64, 47, 0.929);
+  color: #ff7f7f;
+}
+
+.list li .text {
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.list li .amount {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.list li button {
+  background: none;
+  border: none;
+  color: #ff5555;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: transform 0.2s ease;
+}
+
+.list li button:hover {
+  transform: scale(1.3);
+  color: #ff0000;
+}
+
+.empty {
+  color: #999;
+  text-align: center;
+}
+
+.formControl{
+    margin-bottom: 10px;
+}
+
+.formControl label{
+   display: block;
+   margin-bottom: 5px;
+}
+
+.formControl input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.496);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn:hover{
+     background-color: #00ffcc2a;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
