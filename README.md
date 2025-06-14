@@ -29,10 +29,14 @@ expense-tracker/<br>
 ---
 ✨ Future Enhancements
 
- -  Add charts using Chart.js or Recharts
+📊 Pie Chart for expenses (use Chart.js)
 
- - User authentication
+🌙 Dark Mode toggle
 
- - Sync with a database
+📆 Filter by date/month
 
- - Export reports as PDF
+💾 Export to .csv or .pdf
+
+🔒 Password protected mode (JavaScript-based)
+
+🧠 AI Tip (e.g., “You spent more on food this week!”) — optional fun feature
