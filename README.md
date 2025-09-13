@@ -40,5 +40,4 @@ expense-tracker/<br>
 🔒 Password protected mode (JavaScript-based)
 
 🧠 AI Tip (e.g., “You spent more on food this week!”) — optional fun feature
-<br>
-??
+
